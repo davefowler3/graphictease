@@ -1,12 +1,12 @@
 import React from "react";
 import Directory from './Directory';
 import "../components/Cards.css";
-import apparel from "../assets/apparel.png";
-import hats from "../assets/hats.png";
-import accessories from "../assets/accessories.png";
-import card4 from "../assets/card4.png";
+// import apparel from "../assets/apparel.png";
+// import hats from "../assets/hats.png";
+// import accessories from "../assets/accessories.png";
+// import card4 from "../assets/card4.png";
 
-import { Container, Col, Row } from "react-bootstrap";
+// import { Container, Col, Row } from "react-bootstrap";
 
 function Cards () {
   <div className="homepage">
