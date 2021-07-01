@@ -1,0 +1,76 @@
+.cards {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  font-family: var(--ff-secondary);
+  color: #fff;
+}
+
+.container-cards {
+  margin: 0;
+  padding: 40px 0;
+}
+
+.card-body {
+  padding-top: 0.25em;
+}
+
+.card-title {
+  color: #000;
+  font-weight: 600;
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 0.85em;
+  color: black;
+}
+
+.card-img {
+  padding-top: 10px;
+  border-radius: 40px;
+  max-width: 100%;
+}
+
+.btn {
+  justify-content: center;
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: var(--prim-color);
+  color: #fff;
+  border: none;
+}
+
+.card-btn {
+  text-align: center;
+}
+
+.card-item-1 {
+  background: #e53b7a;
+  border-radius: 5px;
+  position: relative;
+  margin: 0;
+}
+
+.card-item-2 {
+  background: #0dc7fa;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.card-item-3 {
+  background: #982cbd;
+  border-radius: 40px;
+}
+
+.card-item-4 {
+  background: greenyellow;
+  border-radius: 40px;
+}
