@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-import logo from "../assets/logo.png";
+import logo from "../assets/images/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Nav() {

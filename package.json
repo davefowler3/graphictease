@@ -1,8 +1,7 @@
 {
   "name": "graphictease",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://davefowler3.github.io/graphictease",
+  "version": "0.3.0",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
