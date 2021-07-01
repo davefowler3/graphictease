@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/graphictease/static/css/main.94ecc171.chunk.css",
+    "main.js": "/graphictease/static/js/main.5c72d5a0.chunk.js",
+    "main.js.map": "/graphictease/static/js/main.5c72d5a0.chunk.js.map",
+    "runtime-main.js": "/graphictease/static/js/runtime-main.3e09bde0.js",
+    "runtime-main.js.map": "/graphictease/static/js/runtime-main.3e09bde0.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/graphictease/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f0b81f01.chunk.js": "/graphictease/static/js/2.f0b81f01.chunk.js",
+    "static/js/2.f0b81f01.chunk.js.map": "/graphictease/static/js/2.f0b81f01.chunk.js.map",
+    "static/js/3.4153e63b.chunk.js": "/graphictease/static/js/3.4153e63b.chunk.js",
+    "static/js/3.4153e63b.chunk.js.map": "/graphictease/static/js/3.4153e63b.chunk.js.map",
+    "index.html": "/graphictease/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/graphictease/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.94ecc171.chunk.css.map": "/graphictease/static/css/main.94ecc171.chunk.css.map",
+    "static/js/2.f0b81f01.chunk.js.LICENSE.txt": "/graphictease/static/js/2.f0b81f01.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/graphictease/static/media/bg.7ff668c0.png",
+    "static/media/graffbw.eef306c4.png": "/graphictease/static/media/graffbw.eef306c4.png",
+    "static/media/logo.12c3fa84.png": "/graphictease/static/media/logo.12c3fa84.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e09bde0.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f0b81f01.chunk.js",
+    "static/css/main.94ecc171.chunk.css",
+    "static/js/main.5c72d5a0.chunk.js"
+  ]
+}
