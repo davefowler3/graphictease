@@ -20,6 +20,7 @@
 
 .links a:hover {
   color: var(--sec-color);
+  text-decoration: none;
 }
 
 .leftSide {

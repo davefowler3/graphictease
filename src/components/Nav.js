@@ -10,14 +10,14 @@ function Nav() {
   return (
     <div className="Navbar">
       <div classname="leftSide">
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="Graphic Tease logo"/>
       </div>
       <div className="rightSide">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <Link to="/">HOME</Link>
-          <a href="">ABOUT</a>
-          <a href="">SHOP</a>
-          <a href="">CONTACT US</a>
+          <Link className="option" to="/">HOME</Link>
+          <Link className="option" to="">ABOUT</Link>
+          <Link className="option" to="">SHOP</Link>
+          <Link className="option" to="">CONTACT US</Link>
         </div>
         <button
           onClick={() => setShowLinks(!showLinks)}
@@ -32,3 +32,4 @@ function Nav() {
 }
 
 export default Nav;
+ 
