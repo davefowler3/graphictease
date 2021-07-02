@@ -1,6 +1,6 @@
 import React from "react";
-import "../components/Cards.css";
-import apparel from "../assets/images/apparel.png";
+import "../components/Cards.scss";
+
 import hats from "../assets/images/hats.png";
 import accessories from "../assets/images/accessories.png";
 import card4 from "../assets/images/card4.png";
@@ -13,20 +13,13 @@ function Cards () {
     <div className="cards">
       <Container fluid>
         <Row>
-          <Col className="card-item-1 col-md-3">
-            <img src={apparel} className="card-img" alt="Apparel"/>
-            <div className="card-body">
-              <h3 className="card-title">Apparel</h3>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <div class="card-btn">
-                <a href="apparel.html" class="btn">
-                  SHOP NOW
-                </a>
+          <Col className="card-item col-md-3">
+              <div className="background-image"/>
+             
+              <div className="content">
+                  <h3 className="card-title">Apparel</h3>
+                  <span className="subtitle">SHOP NOW</span>
               </div>
-            </div>
           </Col>
           <Col className="card-item-2 col-md-3">
             <img src={hats} className="card-img" alt="Hats"/>
