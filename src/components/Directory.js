@@ -1,6 +1,8 @@
 import React from 'react';
 
-import MenuItem from './Menu-item';
+import CardItem from './Card-item';
+
+import './Directory.scss';
 
 class Directory extends React.Component {
     constructor() {
@@ -12,7 +14,7 @@ class Directory extends React.Component {
                     title: 'apparel',
                     imageUrl: 'images/apparel.png',
                     id: 1,
-                    linkUrl: 'apparel',
+                    linkUrl: '',
                 },
                 {
                     title: 'hats',
@@ -29,14 +31,12 @@ class Directory extends React.Component {
                 {
                     title: 'womens',
                     imageUrl: 'images/card4.png',
-                    size: 'large',
                     id: 4,
                     linkUrl: '',
                 },
                 {
                     title: 'mens',
                     imageUrl: 'images/graffbw.png',
-                    size: 'large',
                     id: 5,
                     linkUrl: '',
                 },
@@ -45,13 +45,13 @@ class Directory extends React.Component {
     }
 
     render() {
-        return (
-            <div className="directory-menu">
-                {this.state.sections.map(({ id, ...otherSectionProps }) => (
-                    <MenuItem key={id} {...otherSectionProps} />
-                ))}
-            </div>
-        );
+      return (
+        <div className="directory-menu">
+            {this.state.sections.map(({ id, ...otherSectionProps }) => (
+                <CardItem key={id} {...otherSectionProps} />
+            ))}
+        </div>
+       );
     }
 }
 
