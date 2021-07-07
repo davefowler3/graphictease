@@ -1,0 +1,17 @@
+.quote {
+    background-color: #000;
+    font-family: 'Covered By Your Grace', cursive;
+    color: var(--sec-color);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-family: var(--ff-secondary);
+        font-size: 2rem;
+    }
+}

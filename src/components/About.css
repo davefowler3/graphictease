@@ -15,4 +15,42 @@
   max-height: 600px;
   width: auto;
 }
+
+.about .about-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5%;
+}
+
+.about .about-info h1 {
+  color: var(--prim-color);
+  font-size: 5rem;
+  font-weight: 600;
+  padding: .5em;
+}
+
+.about .about-info p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 10px 20px 40px 20px;
+}
+
+.about .about-info .social-bio {
+  background-color: var(--tri-color);
+  width: 30%;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 2.5em;
+  margin-left: 3%;
+  padding: 0 3%;
+}
+
+.about .about-info .social-bio a {
+  color: var(--sec-color);
+}
+
+.about .about-info .social-bio a:hover {
+  color: #ff00ae;
+}
 /*# sourceMappingURL=About.css.map */
