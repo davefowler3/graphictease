@@ -8,11 +8,11 @@ import { Container, Col, Row } from "react-bootstrap";
 function Cards () {
   
   return (
-    <div className="cards">
+    <div className="banner">
       <Container fluid>
         <Row>
           <Col className="card-item col-md-3">
-              <div className="col-md-5 p-lg-5 mx-auto my-5">
+              <div className="product-device shadow-sm d-md-block">
                 <div className="img"><img src={jillHat} alt="Model holding out hat"/></div>
               </div>
               <div className="col-md-5 p-lg-5 mx-auto my-5">

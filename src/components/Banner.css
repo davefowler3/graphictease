@@ -1,0 +1,36 @@
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.banner .product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.banner .product-device img {
+  max-width: 280px;
+  height: auto;
+  margin-top: 22%;
+}
+
+.banner .product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=Banner.css.map */
