@@ -1,9 +1,7 @@
 import React from "react";
 import "../components/Cards.scss";
 
-import hats from "../assets/images/hats.png";
-import accessories from "../assets/images/accessories.png";
-import card4 from "../assets/images/card4.png";
+
 
 import { Container, Col, Row } from "react-bootstrap";
 
@@ -22,7 +20,7 @@ function Cards () {
               </div>
           </Col>
           <Col className="card-item-2 col-md-3">
-            <img src={hats} className="card-img" alt="Hats"/>
+            
             <div className="card-body">
               <h3 className="card-title">Hats</h3>
               <p className="card-text">
@@ -37,7 +35,6 @@ function Cards () {
             </div>
           </Col>
           <Col className="card-item-3 col-md-3">
-            <img src={accessories} className="card-img" alt="Accessories"/>
             <div className="card-body">
               <h3 className="card-title">Masks</h3>
               <p className="card-text">
@@ -52,7 +49,6 @@ function Cards () {
             </div>
           </Col>
           <Col className="card-item-4 col-md-3">
-            <img src={card4} className="card-img" alt="Women's"/>
             <div className="card-body">
               <h3 className="card-title">Accessories</h3>
               <p className="card-text">

@@ -64,10 +64,11 @@
 }
 
 .menu-item .content .title {
+  font-family: var(--ff-primary);
   font-weight: bold;
   margin-bottom: 6px;
   font-size: 33px;
-  color: #4a4a4a;
+  color: var(--prim-color);
 }
 
 .menu-item .content .subtitle {

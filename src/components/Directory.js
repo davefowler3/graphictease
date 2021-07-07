@@ -23,8 +23,8 @@ class Directory extends React.Component {
                     linkUrl: '',
                 },
                 {
-                    title: 'sneakers',
-                    imageUrl: '',
+                    title: 'Masks',
+                    imageUrl: 'images/accessories.png',
                     id: 3,
                     linkUrl: '',
                 },
@@ -34,12 +34,12 @@ class Directory extends React.Component {
                     id: 4,
                     linkUrl: '',
                 },
-                {
-                    title: 'mens',
-                    imageUrl: 'images/graffbw.png',
-                    id: 5,
-                    linkUrl: '',
-                },
+                // {
+                //     title: 'mens',
+                //     imageUrl: 'images/graffbw.png',
+                //     id: 5,
+                //     linkUrl: '',
+                // },
             ],
         };
     }

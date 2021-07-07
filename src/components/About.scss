@@ -1,0 +1,16 @@
+.about {
+    background-color: #000;
+    font-family: var(--ff-secondary);
+    display: flex;
+    color: #fff;
+    margin: 0;
+    padding-top: 40px;
+
+    .about-img {
+        padding: 10px;
+        margin-left: 5%;
+        max-height: 600px;
+        width: auto;
+    }
+
+}
