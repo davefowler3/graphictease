@@ -17,6 +17,10 @@
             height: auto;
             margin-top: 22%;
         }
+
+        .btn-primary {
+            color: var(--prim-color);
+        }
     }
 
     .product-device::before {
@@ -28,6 +32,15 @@
         content: "";
         background-color: rgba(255, 255, 255, .1);
         border-radius: 5px;
+    }
+
+    .btn {
+        background-color: var(--sec-color);
+        color: #fff;
+    }
+
+    .btn:hover {
+        background-color: var(--tri-color);
     }
 }
 

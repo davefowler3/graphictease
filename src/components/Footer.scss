@@ -1,0 +1,44 @@
+.footer {
+    background: #000;
+    font-family: var(--ff-secondary);
+
+    .social-icons {
+        background-color: #000;
+        font-size: 2rem;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .fab {
+            padding-right: 0.5em;
+        }
+    }
+
+    h5 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    h6 {
+        color: var(--prim-color);
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    p {
+        color: rgb(151, 148, 148);
+        font-family: var(--ff-secondary);
+    }
+
+    a {
+        color: #fff;
+        font-weight: 300;
+
+        &:hover {
+            color: var(--sec-color);
+            font-weight: 800;
+            text-decoration: none;
+        }
+    }
+}

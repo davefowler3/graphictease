@@ -7,6 +7,7 @@ import Directory from './Directory';
 import About from './About';
 import Quote from './Quote';
 import Banner from './Banner';
+import Footer from './Footer';
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <About />
       <Quote />
       <Banner />
+      <Footer />
     </>
   );
 }

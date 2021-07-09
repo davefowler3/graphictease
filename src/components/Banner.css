@@ -23,6 +23,10 @@
   margin-top: 22%;
 }
 
+.banner .product-device .btn-primary {
+  color: var(--prim-color);
+}
+
 .banner .product-device::before {
   position: absolute;
   top: 10%;
@@ -32,5 +36,14 @@
   content: "";
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
+}
+
+.banner .btn {
+  background-color: var(--sec-color);
+  color: #fff;
+}
+
+.banner .btn:hover {
+  background-color: var(--tri-color);
 }
 /*# sourceMappingURL=Banner.css.map */
