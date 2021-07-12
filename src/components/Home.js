@@ -3,10 +3,10 @@ import React from "react";
 import "../App.css";
 
 import Hero from "./Hero";
-import Directory from './Directory';
-import About from './About';
+import Directory from '../components/Directory/Directory';
+import About from '../components/About/About';
 import Quote from './Quote';
-import Banner from './Banner';
+import Banner from '../components/Banner/Banner';
 import Footer from './Footer';
 
 

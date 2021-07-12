@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 
-import jillAbout from "../assets/images/jillabout.png";
+import jillAbout from "../../assets/images/jillabout.png";
 import { FaLinkedin } from 'react-icons/fa'
 
 function About() {

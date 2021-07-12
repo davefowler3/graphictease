@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CardItem from './Card-item';
+import CardItem from '../Card-item/Card-item';
 
 import './Directory.scss';
 

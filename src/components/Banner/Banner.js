@@ -1,7 +1,8 @@
 import React from "react";
-import "../components/Banner.scss";
 
-import jillHat from "../assets/images/jillwithhat.jpg";
+import "../Banner/Banner.scss";
+
+import jillHat from "../../assets/images/jillwithhat.jpg";
 
 import { Container } from "react-bootstrap";
 
