@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+  
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+  
+:root {
+    --prim-color: #d90981;
+    --sec-color: #c42c94;
+    --tri-color: #5f0242;
+  
+    --ff-primary: "Anton", sans-serif;
+    --ff-secondary: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+  

@@ -12,11 +12,11 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
 :root {
   --prim-color: #d90981;
   --sec-color: #c42c94;
   --tri-color: #5f0242;
-
   --ff-primary: "Anton", sans-serif;
   --ff-secondary: "Poppins", sans-serif;
 }
@@ -24,13 +24,4 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.font-link {
-  font-family: "Poppins", sans-serif;
-}
+/*# sourceMappingURL=index.css.map */

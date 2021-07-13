@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.scss";
 
-import graffbw from "../assets/images/graffbw.png";
+import graffbw from "../../assets/images/graffbw.png";
 
 function Hero() {
   return (

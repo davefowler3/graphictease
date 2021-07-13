@@ -1,67 +1,75 @@
 .Navbar {
   background-color: black;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 1.5rem;
   padding: 0.25em;
 }
 
-.links {
+.Navbar .leftSide {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.Navbar .leftSide .logo {
+  height: 120px;
+  padding-left: 90px;
+}
+
+.Navbar .rightSide {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar .rightSide .links {
   font-family: var(--ff-secondary);
   font-weight: 600;
   padding: 10px;
 }
 
-.links a {
+.Navbar .rightSide .links a {
   text-decoration: none;
   padding-right: 1em;
   color: white;
 }
 
-.links a:hover {
+.Navbar .rightSide .links a:hover {
   color: var(--sec-color);
   text-decoration: none;
 }
 
-.leftSide {
-  flex: 50%;
-}
-
-.logo {
-  max-height: 120px;
-  padding-left: 20px;
-}
-
-.leftSide img {
-  padding: 10px;
-}
-
-.rightSide {
-  flex: 50%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.hamburger {
+.Navbar .rightSide .hamburger {
   display: none;
 }
 
-.hamburger:focus {
+.Navbar .rightSide .hamburger:focus {
   outline: 0;
 }
 
 @media only screen and (max-width: 750px) {
   .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 40px;
     margin-right: 20px;
   }
-
   .links {
     display: none;
   }
-
   #hidden {
     position: absolute;
     right: 0px;
@@ -69,17 +77,23 @@
     max-height: 320px;
     width: 100%;
     background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   #hidden a {
     margin: 10px;
     font-size: 25px;
   }
-
   .logo {
     margin-top: 0px;
   }
 }
+/*# sourceMappingURL=Nav.css.map */

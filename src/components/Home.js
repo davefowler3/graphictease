@@ -1,13 +1,12 @@
 import React from "react";
 
-import "../App.css";
+import "../App.scss";
 
-import Hero from "./Hero";
+import Hero from "../components/Hero/Hero";
 import Directory from '../components/Directory/Directory';
 import About from '../components/About/About';
-import Quote from './Quote';
+import Quote from '../components/Quote/Quote';
 import Banner from '../components/Banner/Banner';
-import Footer from './Footer';
 
 
 function Home() {
@@ -18,7 +17,6 @@ function Home() {
       <About />
       <Quote />
       <Banner />
-      <Footer />
     </>
   );
 }
