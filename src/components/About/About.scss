@@ -2,32 +2,31 @@
     background-color: #000;
     font-family: var(--ff-secondary);
     display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
     color: #fff;
     margin: 0;
-    padding-top: 40px;
 
     .about-img {
-        padding: 10px;
-        margin-left: 5%;
-        max-height: 600px;
+        margin: auto;
+        max-height: 500px;
         width: auto;
     }
 
     .about-info {
         align-items: center;
-        margin-right: 5%;
 
         h1 {
             color: var(--prim-color);
-            font-size: 5rem;
+            font-size: 2.75rem;
             font-weight: 600;
-            padding: .5em;
+            padding-top: 40px;
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-weight: 200;
-            padding: 10px 20px 40px 20px;
+            padding: 0 30px;
         }
 
         .social-bio {
@@ -45,6 +44,48 @@
 
             a:hover {
                 color: #ff00ae;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 688px) {
+    .about {
+
+        .about-info {
+
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 922px) {
+    .about {
+        flex-direction: row;
+        text-align: inherit;
+        padding-top: 40px;
+
+
+        .about-img {
+            padding-bottom: 40px;
+            padding-left: 20px;
+        }
+
+        .about-info {
+            margin: auto;
+            padding-left: 30px;
+            padding-right: 20px;
+
+            h1 {
+                font-size: 4rem;
+                padding-top: 0;
+            }
+
+            p {
+                font-size: 1.5rem;
+                padding: 0;
             }
         }
     }

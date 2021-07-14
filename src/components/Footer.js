@@ -23,27 +23,27 @@ function Footer() {
                 <Col className="col-6 col-md">
                     <h5>Shop</h5>
                     <ul className="list-unstyled text-small"> 
-                        <li><a class="link-secondary" href="/">Mens</a></li>
-                        <li><a class="link-secondary" href="/">Womens</a></li>
-                        <li><a class="link-secondary" href="/">Kids</a></li>
-                        <li><a class="link-secondary" href="/">Classics</a></li>
-                        <li><a class="link-secondary" href="/">Accessories</a></li>
+                        <li><a className="link-secondary" href="/">Mens</a></li>
+                        <li><a className="link-secondary" href="/">Womens</a></li>
+                        <li><a className="link-secondary" href="/">Kids</a></li>
+                        <li><a className="link-secondary" href="/">Classics</a></li>
+                        <li><a className="link-secondary" href="/">Accessories</a></li>
                     </ul>
                 </Col>
                 <Col className="col-6 col-md">
                     <h5>Company</h5>
                     <ul className="list-unstyled text-small"> 
-                        <li><a class="link-secondary" href="/">Terms of Use</a></li>
-                        <li><a class="link-secondary" href="/">Privacy</a></li>
-                        <li><a class="link-secondary" href="/">Affiliates</a></li>
-                        <li><a class="link-secondary" href="/">Inclusion and Diversity</a></li>
+                        <li><a className="link-secondary" href="/">Terms of Use</a></li>
+                        <li><a className="link-secondary" href="/">Privacy</a></li>
+                        <li><a className="link-secondary" href="/">Affiliates</a></li>
+                        <li><a className="link-secondary" href="/">Inclusion and Diversity</a></li>
                     </ul>
                 </Col>
                 <Col className="col-6 col-md">
                     <h5>Contact</h5>
                     <ul className="list-unstyled text-small"> 
-                        <li><a class="link-secondary" href="/">Contact Us</a></li>
-                        <li><a class="link-secondary" href="/">Order Status</a></li>
+                        <li><a className="link-secondary" href="/">Contact Us</a></li>
+                        <li><a className="link-secondary" href="/">Order Status</a></li>
                     </ul>
                 </Col>
                 <Col className="contact col-6 col-md">

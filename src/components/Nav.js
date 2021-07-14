@@ -10,7 +10,7 @@ function Nav() {
   return (
     <div className="Navbar">
       <div className="leftSide">
-        <img className="logo" src={logo} height="100px" alt="Graphic Tease logo"/>
+        <img className="logo" src={logo} alt="Graphic Tease logo"/>
       </div>
       <div className="rightSide">
         <div className="links" id={showLinks ? "hidden" : ""}>

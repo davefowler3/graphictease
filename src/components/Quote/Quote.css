@@ -5,14 +5,25 @@
   text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
+  margin: 0;
 }
 
 .quote h1 {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .quote p {
   font-family: var(--ff-secondary);
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .quote h1 {
+    font-size: 3.25rem;
+    padding: 0 15px;
+  }
+  .quote p {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=Quote.css.map */
