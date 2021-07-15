@@ -1,29 +1,52 @@
 .hero {
-    background-image: url("../../assets/images/bg.png");
-    background-size: cover;
-    height: 90vh;
-    text-align: center;
-    font-family: var(--ff-primary);
-  }
+  background-image: url("../../assets/images/bg.png");
+  background-size: cover;
+  padding-bottom: 100px;
+  text-align: center;
+  font-family: var(--ff-primary);
   
   .hero-info h1 {
-    font-size: 5.5rem;
-    color: var(--prim-color);
-    padding-top: 2%;
-    text-shadow: 2px 2px 2px black;
+  font-size: 2.5rem;
+  color: var(--prim-color);
+  padding-top: 5%;
+  text-shadow: 2px 2px 2px black;
   }
   
   .hero-info p {
-    color: #fff;
-    font-family: var(--ff-secondary);
-    font-weight: 200;
-    font-size: 1.5rem;
-    padding: 0 5rem;
-    text-shadow: 1px 2px 2px black;
-    margin-bottom: 20px;
+  color: #fff;
+  font-family: var(--ff-secondary);
+  font-weight: 200;
+  font-size: 1.25rem;
+  padding: 0 5rem;
+  text-shadow: 1px 2px 2px black;
+  margin-bottom: 20px;
   }
   
   .hero-img {
-    max-width: 60%;
+  max-width: 80%;
   }
-  
+}
+
+@media screen and (min-width: 688px) {
+  .hero {
+    .hero-info h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero {
+    .hero-info h1 {
+      font-size: 5.5rem;
+    }
+
+    .hero-info p {
+      font-size: 1.5rem;
+    }
+
+    .hero-img {
+      max-width: 90%;
+    }
+  }
+}

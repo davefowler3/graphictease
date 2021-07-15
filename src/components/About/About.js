@@ -2,7 +2,7 @@ import React from "react";
 import "./About.scss";
 
 import jillAbout from "../../assets/images/jillabout.png";
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 function About() {
   return (
@@ -19,6 +19,7 @@ function About() {
             </p>
             <div className="social-bio">
                 <a href="/" target="blank"><FaLinkedin /></a>
+                <a href="/" target="blank"><FaTwitter /></a>
             </div>
         </div>
     </div>

@@ -9,8 +9,9 @@
 
     .about-img {
         margin: auto;
-        max-height: 500px;
+        max-width: 70%;
         width: auto;
+        padding-top: 10px;
     }
 
     .about-info {
@@ -30,32 +31,35 @@
         }
 
         .social-bio {
-            background-color: var(--tri-color);
-            width: 30%;
-            text-align: center;
-            border-radius: 30px;
-            font-size: 2.5em;
-            margin-left: 3%;
-            padding: 0 3%;
-
-            a {
-                color: var(--sec-color);
-            }
-
-            a:hover {
-                color: #ff00ae;
-            }
+            display: none;
         }
     }
 }
 
 @media only screen and (min-width: 688px) {
     .about {
-
         .about-info {
-
             h1 {
                 font-size: 3.5rem;
+            }
+
+            .social-bio {
+                display: inline;
+                background-color: var(--tri-color);
+                width: 30%;
+                text-align: center;
+                border-radius: 30px;
+                font-size: 2.5em;
+                padding: 0 3%;
+    
+                a {
+                    color: var(--sec-color);
+                    padding: 5px;
+                }
+    
+                a:hover {
+                    color: #ff00ae;
+                }
             }
         }
     }
@@ -65,10 +69,10 @@
     .about {
         flex-direction: row;
         text-align: inherit;
-        padding-top: 40px;
-
 
         .about-img {
+            max-width: 500px;
+            max-height: 450px;
             padding-bottom: 40px;
             padding-left: 20px;
         }
@@ -79,13 +83,23 @@
             padding-right: 20px;
 
             h1 {
-                font-size: 4rem;
                 padding-top: 0;
+                margin-top: 0;
             }
 
             p {
                 font-size: 1.5rem;
                 padding: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1029px) {
+    .about {
+        .about-info {
+            h1 {
+                font-size: 6rem;
             }
         }
     }
