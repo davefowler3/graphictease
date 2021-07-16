@@ -1,33 +1,41 @@
 .footer {
-  background: #000;
+  background: orange;
   font-family: var(--ff-secondary);
 }
 
-.footer .social-icons {
-  background-color: #000;
+.footer .row .social {
+  background-color: blue;
+}
+
+.footer .row .social .social-icons {
+  background-color: pink;
   font-size: 2rem;
   color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.footer .social-icons .fab {
+.footer .row .social .social-icons .fab {
   padding-right: 0.5em;
 }
 
-.footer h5 {
+.footer .row .info {
+  background-color: teal;
+}
+
+.footer .row .info h5 {
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
 }
 
-.footer h6 {
+.footer .row .info h6 {
   color: var(--prim-color);
   font-size: 1.5rem;
   font-weight: 800;
 }
 
-.footer p {
+.footer .row .info p {
   color: #979494;
   font-family: var(--ff-secondary);
 }

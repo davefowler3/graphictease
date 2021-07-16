@@ -1,34 +1,46 @@
 .footer {
-    background: #000;
+    background: orange;
     font-family: var(--ff-secondary);
 
-    .social-icons {
-        background-color: #000;
-        font-size: 2rem;
-        color: #fff;
-        margin-top: 20px;
-        margin-bottom: 20px;
+    .row {
+        
+        .social {
+            background-color: blue;
 
-        .fab {
-            padding-right: 0.5em;
+            .social-icons {
+                background-color: pink;
+                font-size: 2rem;
+                color: #fff;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        
+                .fab {
+                    padding-right: 0.5em;
+                }
+            }
         }
-    }
+        
+        .info {
+            background-color: teal;
+            
 
-    h5 {
-        color: #fff;
-        font-size: 2rem;
-        font-weight: 800;
-    }
-
-    h6 {
-        color: var(--prim-color);
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
-
-    p {
-        color: rgb(151, 148, 148);
-        font-family: var(--ff-secondary);
+            h5 {
+                color: #fff;
+                font-size: 2rem;
+                font-weight: 800;
+            }
+        
+            h6 {
+                color: var(--prim-color);
+                font-size: 1.5rem;
+                font-weight: 800;
+            }
+        
+            p {
+                color: rgb(151, 148, 148);
+                font-family: var(--ff-secondary);
+            }
+        }
     }
 
     a {
@@ -42,4 +54,5 @@
         }
     }
 }
+
 
