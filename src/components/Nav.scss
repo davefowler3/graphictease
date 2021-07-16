@@ -1,18 +1,12 @@
-.Navbar {
+.navbar {
     background-color: black;
-    width: 100%;
-    display: flex;
-    font-size: 1.5rem;
-    padding: 0.25em;
 
     .leftSide {
-        flex: 50%;
-
         .logo {
-            height: 120px;
-            padding-left: 90px;
+            padding-left: 30px;
+            max-height: 80px;
         }
-    }  
+    }
 
     .rightSide {
         flex: 50%;
@@ -21,63 +15,79 @@
         align-items: center;
 
         .links {
-            font-family: var(--ff-secondary);
-            font-weight: 600;
-            padding: 10px;
-
-             a {
-                text-decoration: none;
-                padding-right: 1em;
-                color: white;
-
-                &:hover {
-                    color: var(--sec-color);
-                    text-decoration: none;
-                }
-            }
+           display: none;
         }
 
         .hamburger {
-            display: none;
+            display: flex;
+            width: 40px;
+            margin-right: 20px;
+            color: white;
+        }
+    }
 
-            &:focus {
-                outline: 0;
-            }
-          
+    #hidden {
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        max-height: 320px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    
+    #hidden a {
+        text-decoration: none;
+        padding-right: 1em;
+        font-weight: 600;
+        color: white;
+        padding-bottom: 30px;
+
+        &:hover {
+            color: var(--sec-color);
+            text-decoration: none;
         }
     }
 }
 
-@media only screen and (max-width: 750px) {
-    .hamburger {
-      display: flex;
-      width: 40px;
-      margin-right: 20px;
-    }
-  
-    .links {
-      display: none;
-    }
-  
-    #hidden {
-      position: absolute;
-      right: 0px;
-      top: 80px;
-      max-height: 320px;
-      width: 100%;
-      background-color: black;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    #hidden a {
-      margin: 10px;
-      font-size: 25px;
-    }
-  
-    .logo {
-      margin-top: 0px;
+@media only screen and (min-width: 622px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        padding: 0.25em;
+        
+        .rightSide {
+            .links {
+                display: flex;
+                font-family: var(--ff-secondary);
+                font-weight: 600;
+                padding: 10px;
+            
+                 a {
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: white;
+                    padding-right: 10px;
+            
+                    &:hover {
+                        color: var(--sec-color);
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .hamburger {
+                display: none;
+    
+                &:focus {
+                    outline: 0;
+                }
+              
+            }
+        }
     }
 }
   
+

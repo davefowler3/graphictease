@@ -7,8 +7,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Nav() {
   const [showLinks, setShowLinks] = useState(false);
+
   return (
-    <div className="Navbar">
+    <div className="navbar">
       <div className="leftSide">
         <img className="logo" src={logo} alt="Graphic Tease logo"/>
       </div>
@@ -18,14 +19,14 @@ function Nav() {
           <Link className="option" to="">ABOUT</Link>
           <Link className="option" to="/shop">SHOP</Link>
           <Link className="option" to="">ACCOUNT</Link>
-          <Link className="option" to="">CONTACT US</Link>
+          <Link className="option" to="">CONTACT</Link>
         </div>
         <button
           onClick={() => setShowLinks(!showLinks)}
           className="hamburger"
           id="hamburger"
         >
-          <GiHamburgerMenu size="3.5em" color="#000"></GiHamburgerMenu>
+          <GiHamburgerMenu size="3.5em" color="#fff"></GiHamburgerMenu>
         </button>
       </div>
     </div>
