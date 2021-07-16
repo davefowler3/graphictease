@@ -31,7 +31,7 @@
 }
 
 .menu-item:hover .content {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .menu-item .background-image {

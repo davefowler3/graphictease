@@ -16,7 +16,7 @@ function Nav() {
       <div className="rightSide">
         <div className="links" id={showLinks ? "hidden" : ""}>
           <Link className="option" to="/">HOME</Link>
-          <Link className="option" to="">ABOUT</Link>
+          <Link className="option" to="/about">ABOUT</Link>
           <Link className="option" to="/shop">SHOP</Link>
           <Link className="option" to="">ACCOUNT</Link>
           <Link className="option" to="">CONTACT</Link>

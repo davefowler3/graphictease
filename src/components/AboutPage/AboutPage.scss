@@ -1,0 +1,85 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    height: auto;
+    background-color: #000;
+
+    .about-info {
+
+        h1 {
+            font-size: 3rem;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            padding-bottom: 20px;
+        }
+    }
+    
+    .abt-img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 622px) {
+    .aboutPage {
+        flex-direction: row;
+        align-items: start;
+        font-family: var(--ff-secondary);
+
+        .aboutPage-info {
+            width: 700px;
+            padding-top: 120px;
+
+            h1 {
+                color: var(--prim-color);
+                font-size: 2rem;
+                font-weight: 600;
+            }
+    
+            p {
+                width: 90%;
+                color: white;
+                font-size: 1rem;
+                font-weight: 300;
+            }
+        }
+
+        .photos {    
+            .abt-img {
+                max-height: 500px;
+                position: relative;
+                right: 40px;
+                z-index: 2;
+            }
+
+            .abt-img2 {
+                position: absolute;
+                max-height: 300px;
+                top: 100px;
+                right: 20px;
+                z-index: 3;
+            }
+
+            .abt-img3 {
+                position: relative;
+                max-width: 400px;
+                bottom: 10px;
+                right: 150px;
+                z-index: 2;
+            }
+    
+            .abt-img4 {
+                position: absolute;
+                max-height: 400px;
+                bottom: 0;
+                right: 20px;
+                z-index: 2;
+                
+            }
+        }
+    }
+}
