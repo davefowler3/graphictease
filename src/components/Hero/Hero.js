@@ -16,7 +16,7 @@ function Hero() {
         <img src={graffbw} className="hero-img" alt="Jill with spraypaint"/>
       </div>
       <div className="socials">
-      <Link className="option" to="/"><FaFacebook /></Link>
+        <Link className="option" to="/"><FaFacebook /></Link>
         <Link className="option" to="/"><FaInstagram /></Link>
         <Link className="option" to="/"><FaTwitter /></Link>
       </div>

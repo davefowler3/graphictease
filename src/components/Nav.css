@@ -87,7 +87,7 @@
     font-size: 1rem;
     text-decoration: none;
     color: white;
-    padding-right: 10px;
+    padding-right: 20px;
   }
   .navbar .rightSide .links a:hover {
     color: var(--sec-color);
