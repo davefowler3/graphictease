@@ -17,7 +17,7 @@ function Cards () {
               <div className="col-md-5 p-lg-5 mx-auto my-5">
                   <h1 className="display-4 fw-normal">Style AND Substance</h1>
                   <p className="lead fw-normal">
-                    No matter your backbround, <strong>Graphic Tease</strong> understands
+                    No matter your background, <strong>Graphic Tease</strong> understands
                     there are special things that make you unique. Now you can show it off.
                   </p>
                   <a className="btn" href="/">Our Mission</a>

@@ -23,6 +23,9 @@ function Nav() {
           <Link className="option" to="">ACCOUNT</Link>
           <Link className="option" to="">CONTACT</Link>
         </div>
+        <div>
+          <CartIcon />
+        </div>
         <button
           onClick={() => setShowLinks(!showLinks)}
           className="hamburger"
@@ -31,7 +34,6 @@ function Nav() {
           <GiHamburgerMenu size="3.5em" color="#fff"></GiHamburgerMenu>
         </button>
       </div>
-      <CartIcon />
     </div>
   );
 }
