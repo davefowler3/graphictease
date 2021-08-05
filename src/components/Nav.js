@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { connect } from 'react-redux';
 
-import CartIcon from './Cart-icon/Cart-icon';
 import "./Nav.scss";
 
 import logo from "../assets/images/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
+import CartIcon from './Cart-icon/Cart-icon';
+import CartDropdown from "./Cart-dropdown/Cart-dropdown";
 
-function Nav() {
+const Nav = ({ currentUser, hidden}) => {
   const [showLinks, setShowLinks] = useState(false);
 
   return (
@@ -26,6 +28,9 @@ function Nav() {
         <div>
           <CartIcon />
         </div>
+        {
+          hidden ? null : <CartDropdown /> 
+        }
         <button
           onClick={() => setShowLinks(!showLinks)}
           className="hamburger"
@@ -38,5 +43,10 @@ function Nav() {
   );
 }
 
-export default Nav;
+const mapStateToProps = ({user: { currentUser }, cart: {hidden }}) => ({
+  currentUser, 
+  hidden
+});
+
+export default connect(mapStateToProps)(Nav);
  
