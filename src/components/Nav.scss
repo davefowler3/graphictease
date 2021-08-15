@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: white;
 
     .leftSide {
         .logo {
@@ -42,7 +42,7 @@
         text-decoration: none;
         padding-right: 1em;
         font-weight: 600;
-        color: white;
+        color: black;
         padding-bottom: 30px;
 
         &:hover {
@@ -61,14 +61,14 @@
         .rightSide {
             .links {
                 display: flex;
-                font-family: var(--ff-secondary);
+                font-family: var(--ff-fourth);
                 font-weight: 600;
                 padding: 10px;
             
                  a {
                     font-size: 1rem;
                     text-decoration: none;
-                    color: white;
+                    color: black;
                     padding-right: 20px;
             
                     &:hover {
