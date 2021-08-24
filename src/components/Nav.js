@@ -15,14 +15,15 @@ const Nav = ({ currentUser, hidden}) => {
   return (
     <div className="navbar">
       <div className="leftSide">
+      <Link className="option" to="/">
         <img className="logo" src={logo} alt="Graphic Tease logo"/>
+      </Link>
       </div>
       <div className="rightSide">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <Link className="option" to="/">HOME</Link>
           <Link className="option" to="/about">ABOUT</Link>
           <Link className="option" to="/shop">SHOP</Link>
-          <Link className="option" to="">ACCOUNT</Link>
+          <Link className="option" to="/signin">ACCOUNT</Link>
           <Link className="option" to="">CONTACT</Link>
         </div>
         <div>
