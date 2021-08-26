@@ -1,7 +1,12 @@
 .sign-in {
     background-color: pink;
-    margin: auto;
     width: 40vw;
     padding: 20px;
     font-family: var(--ff-fourth);
+    display:  flex;
+    flex-direction: column;
+
+    .title {
+        margin: 10px;
+    }
 }
